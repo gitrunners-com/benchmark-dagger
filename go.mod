@@ -36,18 +36,18 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/cobra v1.6.1
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.2
 	github.com/tonistiigi/fsutil v0.0.0-20230105215944-fb433841cbfa
 	github.com/urfave/cli v1.22.12
 	github.com/weaveworks/common v0.0.0-20230119144549-0aaa5abd1e63
 	github.com/zeebo/xxh3 v1.0.2
 	go.etcd.io/bbolt v1.3.6
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.37.0
-	go.opentelemetry.io/otel v1.12.0
-	go.opentelemetry.io/otel/exporters/jaeger v1.11.2
+	go.opentelemetry.io/otel v1.14.0
+	go.opentelemetry.io/otel/exporters/jaeger v1.14.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.12.0
-	go.opentelemetry.io/otel/sdk v1.12.0
-	go.opentelemetry.io/otel/trace v1.12.0
+	go.opentelemetry.io/otel/sdk v1.14.0
+	go.opentelemetry.io/otel/trace v1.14.0
 	go.opentelemetry.io/proto/otlp v0.19.0
 	golang.org/x/crypto v0.3.0
 	golang.org/x/mod v0.7.0
@@ -58,7 +58,10 @@ require (
 	oss.terrastruct.com/d2 v0.1.5
 )
 
-require github.com/go-git/go-git/v5 v5.5.2
+require (
+	github.com/go-git/go-git/v5 v5.5.2
+	github.com/jackpal/gateway v1.0.7
+)
 
 require (
 	cdr.dev/slog v1.4.2-0.20221206192828-e4803b10ae17 // indirect
@@ -121,7 +124,6 @@ require (
 	github.com/hashicorp/go-retryablehttp v0.7.2 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/imdario/mergo v0.3.13 // indirect
-	github.com/jackpal/gateway v1.0.7 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
